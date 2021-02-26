@@ -1,0 +1,606 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+header {
+  height: 100%;
+  overflow: hidden;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 10vh;
+  position: relative;
+  top: 0;
+  margin: 0 auto;
+}
+
+header nav .nav-list {
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 5rem;
+  width: 80%;
+  border-radius: 5px;
+  background-color: white;
+  height: 50vh;
+  transform: translateY(10%);
+  left: 0;
+  margin: 0 auto;
+  right: 0;
+  text-align: center;
+  align-items: center;
+}
+
+header nav .nav-list a {
+  color: black;
+  position: relative;
+  right: 1rem;
+}
+
+header nav .burger {
+  cursor: pointer;
+}
+
+header nav .burger .line {
+  display: block;
+  width: 20px;
+  height: 2px;
+  margin: 5px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+header nav .navbutton {
+  display: none;
+}
+
+header #hero {
+  z-index: -1;
+}
+
+header #hero .container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header #hero .container .col-1 .heroImage img {
+  width: 25rem;
+  height: 25rem;
+}
+
+header #hero .container .col-1 .heroBackground {
+  position: relative;
+  bottom: 52.5rem;
+  z-index: -1;
+}
+
+header #hero .container .col-1 .heroBackground img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70rem;
+}
+
+header #hero .container .col-2 .container h1 {
+  color: #242d52;
+}
+
+header #hero .container .col-2 .container p {
+  font-weight: 300;
+  color: #9095a7;
+}
+
+header #hero .container .col-2 .container .herobutton {
+  background-color: #f25f3a;
+  border: none;
+  border-radius: 20px;
+  width: 8rem;
+  box-shadow: 0.5px 0px 5px 0px rgba(131, 131, 131, 0.693);
+  height: 2rem;
+}
+
+header #hero .container .col-2 .container .herobutton a {
+  font-size: 13px;
+  color: white;
+  font-weight: 700;
+}
+
+#about {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  height: 100%;
+}
+
+#about .container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about .container h1 {
+  color: #242d52;
+  width: 80%;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#about .container p {
+  color: #9095a7;
+}
+
+#progress .container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#progress .container .col-1 .hedline,
+#progress .container .col-2 .hedline,
+#progress .container .col-3 .hedline {
+  align-items: center;
+  display: flex;
+}
+
+#progress .container .col-1 .hedline h2,
+#progress .container .col-2 .hedline h2,
+#progress .container .col-3 .hedline h2 {
+  background-color: #f25f3a;
+  border-radius: 10px;
+  color: white;
+  width: 3rem;
+  padding-top: .2rem;
+  text-align: center;
+  height: 3rem;
+}
+
+#progress .container .col-1 .hedline h3,
+#progress .container .col-2 .hedline h3,
+#progress .container .col-3 .hedline h3 {
+  background-color: #ffefeb;
+  padding-top: .4rem;
+  text-align: center;
+  position: absolute;
+  right: 0rem;
+  z-index: -1;
+  color: #242d52;
+  height: 3rem;
+  border-radius: 10px;
+  width: 20rem;
+}
+
+#progress .container .col-1 .content p,
+#progress .container .col-2 .content p,
+#progress .container .col-3 .content p {
+  color: #9095a7;
+}
+
+#testimonial .headline {
+  text-align: center;
+}
+
+#testimonial .headline h1 {
+  color: #242d52;
+}
+
+#testimonial .contianer {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-top: 3rem;
+  gap: 3rem;
+  width: 90%;
+}
+
+#testimonial .contianer .col-1,
+#testimonial .contianer .col-2,
+#testimonial .contianer .col-3,
+#testimonial .contianer .col-4 {
+  background-color: #fafafa;
+}
+
+#testimonial .contianer .col-1 img,
+#testimonial .contianer .col-2 img,
+#testimonial .contianer .col-3 img,
+#testimonial .contianer .col-4 img {
+  width: 5rem;
+  position: relative;
+  bottom: 2rem;
+}
+
+#testimonial .contianer .col-1 h2,
+#testimonial .contianer .col-2 h2,
+#testimonial .contianer .col-3 h2,
+#testimonial .contianer .col-4 h2 {
+  color: #242d52;
+}
+
+#testimonial .contianer .col-1 p,
+#testimonial .contianer .col-2 p,
+#testimonial .contianer .col-3 p,
+#testimonial .contianer .col-4 p {
+  color: #9095a7;
+  line-height: 170%;
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+}
+
+#testimonial .box {
+  display: flex;
+  gap: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+
+#testimonial .box div {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 20px;
+  background-color: none;
+  cursor: pointer;
+  border: #f25f3a 1px solid;
+  transition: .3s ease-in-out all;
+}
+
+#testimonial .box div:hover {
+  background-color: #f25f3a;
+}
+
+#testimonial .testimonialbutton {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+#testimonial .testimonialbutton button {
+  background-color: #f25f3a;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  width: 8rem;
+  box-shadow: 0.5px 0px 5px 0px rgba(131, 131, 131, 0.693);
+  height: 2rem;
+}
+
+#testimonial .testimonialbutton button a {
+  font-size: 13px;
+  color: white;
+  font-weight: 700;
+}
+
+#ad {
+  min-height: 100%;
+  padding-top: 2rem;
+}
+
+#ad .container {
+  background-color: #f25f3a;
+}
+
+#ad .container .content {
+  z-index: 100;
+  padding-bottom: 3rem;
+  align-items: center;
+  position: relative;
+  bottom: 2rem;
+  text-align: center;
+  color: white;
+}
+
+#ad .container .content h1 {
+  font-size: 40px;
+}
+
+#ad .container .content .adbutton {
+  width: 12rem;
+  height: 3rem;
+  background-color: white;
+  border: none;
+  border-radius: 40px;
+}
+
+#ad .container .content .adbutton a {
+  color: #f25f3a;
+  font-weight: 600;
+}
+
+#ad .background {
+  padding-top: 5rem;
+}
+
+#ad .background img {
+  width: 15rem;
+  position: absolute;
+  height: 13rem;
+  opacity: .2;
+  left: -8rem;
+  z-index: 0;
+}
+
+#ad .background-2 {
+  display: none !important;
+  position: absolute;
+}
+
+#ad .background-2 img {
+  position: relative;
+  left: 75rem;
+  height: 20rem;
+  width: 20rem;
+  overflow: hidden;
+  bottom: 8rem;
+  opacity: .4;
+}
+
+#footer {
+  background-color: #1d1e25;
+}
+
+#footer .container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+#footer .container .form {
+  margin: 0 auto;
+}
+
+#footer .container .form input {
+  width: 15rem;
+  height: 3rem;
+  border-radius: 20px;
+  border: none;
+}
+
+#footer .container .form .footerbutton {
+  background-color: #f25f3a;
+  height: 3rem;
+  border: none;
+  color: white;
+  width: 5rem;
+  border-radius: 20px;
+}
+
+#footer .container .navbar {
+  display: flex;
+  gap: 5rem;
+  margin: 0 auto;
+  line-height: 200%;
+}
+
+#footer .container .navbar a {
+  color: white;
+}
+
+#footer .container .icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#footer .container .logo {
+  padding-top: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+#footer .container .footerbottom {
+  color: white;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.desktopverabout .heroBackground img {
+  display: none;
+}
+
+.main.active {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+  position: relative;
+  z-index: 1000;
+}
+
+.nav-list.active {
+  animation: active .5s ease-out;
+  display: flex;
+}
+
+.burger.active {
+  position: absolute;
+  right: 0;
+}
+
+.burger.active .line:nth-child(1) {
+  display: none;
+}
+
+.burger.active .line:nth-child(2) {
+  animation: fadeInRight .5s ease-in-out;
+  transform: rotate(45deg);
+}
+
+.burger.active .line:nth-child(3) {
+  transform: rotate(135deg);
+  position: absolute;
+  bottom: .1rem;
+  animation: fadeInLeft .5s ease-in-out;
+}
+
+@media (min-width: 1025px) {
+  header nav {
+    padding-top: 2rem;
+    align-items: center;
+  }
+  header nav .nav-list {
+    display: flex;
+    background: none;
+    align-self: center;
+    position: static;
+    flex-direction: row;
+    padding-bottom: 4rem;
+  }
+  header nav .navbutton {
+    display: block;
+  }
+  header nav .navbutton button {
+    width: 10rem;
+    height: 2rem;
+    background-color: #f25f3a;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+  }
+  header nav .burger {
+    display: none;
+  }
+  header #hero {
+    padding-top: 2rem;
+  }
+  header #hero .container {
+    flex-direction: row-reverse;
+    width: 70%;
+  }
+  header #hero .col-2 .container {
+    margin-right: 10rem;
+    flex-direction: column;
+  }
+  header #hero .col-2 .container h1, header #hero .col-2 .container p {
+    text-align: start;
+  }
+  header #hero .col-2 .container h1 {
+    font-size: 40px;
+  }
+  header #hero .col-2 .container .herobutton {
+    align-self: flex-start;
+  }
+  .desktopverabout {
+    display: flex;
+  }
+  .desktopverabout .heroBackground {
+    position: absolute;
+  }
+  .desktopverabout .heroBackground img {
+    display: block;
+    position: relative;
+    right: 13rem;
+    top: 10rem;
+    z-index: -1;
+  }
+  .desktopverabout #progress {
+    gap: 2rem;
+    padding-top: 5rem;
+  }
+  .desktopverabout #progress .container .col-1 h3, .desktopverabout #progress .container .col-2 h3, .desktopverabout #progress .container .col-3 h3, .desktopverabout #progress .container .col-4 h3 {
+    margin-right: 10rem;
+    background: none;
+  }
+  #testimonial {
+    padding-bottom: 6rem;
+    padding-top: 5rem;
+  }
+  #testimonial .contianer {
+    flex-direction: row;
+  }
+  #testimonial .contianer .box {
+    display: none;
+  }
+  #testimonial .contianer .col-1, #testimonial .contianer .col-2, #testimonial .contianer .col-3, #testimonial .contianer .col-4 {
+    align-items: center;
+  }
+  #testimonial .contianer .col-3 {
+    position: relative;
+    top: .7rem;
+  }
+  #testimonial .testimonialbutton {
+    padding-top: 5rem;
+  }
+  #ad .container .background-2 {
+    display: block !important;
+  }
+  #footer .container {
+    flex-direction: row;
+    align-items: center;
+  }
+  #footer .container .class {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@keyframes active {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(10%);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(135deg);
+    position: absolute;
+    bottom: .1rem;
+  }
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Be Vietnam", sans-serif;
+}
+
+*, *::after, *::after {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */

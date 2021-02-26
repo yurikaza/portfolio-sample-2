@@ -1,0 +1,17 @@
+body,html {
+    overflow-x: hidden;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: $MainFont;
+}
+*,*::after,*::after {
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
